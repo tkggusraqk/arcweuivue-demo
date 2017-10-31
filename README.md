@@ -1,6 +1,8 @@
 # arcweuivue-demo
 
-> arcweui-vue 库的 使用 Demo
+> arcweui-vue 库的 使用 Demo，扫码快速体验
+> ![Alt text](./1509441555.png)
+[线上地址](https://tkggusraqk.github.io/arcweuivue-demo/#/)
 
 ## Build Setup
 
