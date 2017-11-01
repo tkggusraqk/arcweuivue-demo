@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Button text="Toast" @click="clickHandler('Toast')"></Button>
+    <Button text="Toast" v-on:click="clickHandler('Toast')"></Button>
     <Button text="Button" @click="clickHandler('Button')"></Button>
     <Button text="Badge" @click="clickHandler('Badge')"></Button>
     <Button text="Tag" @click="clickHandler('Tag')"></Button>
@@ -15,6 +15,8 @@
 export default {
   data() {
     return {}
+  },
+  mounted() {
   },
   methods: {
     clickHandler(name) {

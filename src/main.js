@@ -10,18 +10,6 @@ import 'arcweui-vue/dist/arcweui-vue.min.css'
 
 Vue.use(ArcWeUI)
 Vue.config.productionTip = false
-Vue.config.errorHandler = function(err, vm, info) {
-  console.log('err:')
-  console.log(err)
-  console.log('vm:')
-  console.log(vm)
-  console.log('info:')
-  console.log(info)
-}
-window.onerror = (message) => {
-  console.log('onerror:')
-  console.log(message)
-}
 
 /* eslint-disable no-new */
 new Vue({

@@ -4,6 +4,7 @@ import Router from 'vue-router'
 // 路由配置
 let components = []
 components.push({ component: 'Index', name: 'Index', path: '/' })
+components.push({ component: 'Index', name: 'Index', path: '/Index' })
 components.push({ component: 'Toast', name: 'Toast', path: '/Toast' })
 components.push({ component: 'Button', name: 'Button', path: '/Button' })
 components.push({ component: 'Tag', name: 'Tag', path: '/Tag' })
