@@ -17,6 +17,9 @@ export default {
       title: 'ARC WX Component Demo'
     }
   },
+  mounted() {
+    eruda.init() // eslint-disable-line no-undef
+  },
   methods: {
     goBack() {
       this.title = 'ARC WX Component Demo'
