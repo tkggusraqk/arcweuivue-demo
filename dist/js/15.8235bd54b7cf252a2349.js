@@ -1,2 +1,0 @@
-webpackJsonp([15],{"9+QO":function(e,n,l){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=l("ZrNE"),r=l("VU/8"),u=r(null,t.a,!1,null,null,null);n.default=u.exports},ZrNE:function(e,n,l){"use strict";var t=function(){var e=this,n=e.$createElement,l=e._self._c||n;return l("div",[l("TitleCell",[e._v("\n    这是简单的cell\n  ")])],1)},r=[],u={render:t,staticRenderFns:r};n.a=u}});
-//# sourceMappingURL=15.8235bd54b7cf252a2349.js.map

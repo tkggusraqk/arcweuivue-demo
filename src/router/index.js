@@ -4,7 +4,6 @@ import Router from 'vue-router'
 // 路由配置
 let components = []
 components.push({ component: 'Index', name: 'Index', path: '/' })
-components.push({ component: 'Index', name: 'Index', path: '/Index' })
 components.push({ component: 'Toast', name: 'Toast', path: '/Toast' })
 components.push({ component: 'Button', name: 'Button', path: '/Button' })
 components.push({ component: 'Tag', name: 'Tag', path: '/Tag' })
@@ -18,6 +17,7 @@ components.push({ component: 'Input', name: 'Input', path: '/Input' })
 components.push({ component: 'CheckBox', name: 'CheckBox', path: '/CheckBox' })
 components.push({ component: 'CheckBoxList', name: 'CheckBoxList', path: '/CheckBoxList' })
 components.push({ component: 'TitleCell', name: 'TitleCell', path: '/TitleCell' })
+components.push({ component: 'Msg', name: 'Msg', path: '/Msg' })
 
 let routerObj = []
 for (let index = 0; index < components.length; index++) {
