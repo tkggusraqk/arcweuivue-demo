@@ -1,0 +1,2 @@
+webpackJsonp([23],{"4IP3":function(t,e,n){"use strict";var r=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",[n("Badge",{attrs:{text:"123"}}),t._v(" "),n("br"),t._v(" "),n("Badge",{attrs:{isDot:!0}})],1)},a=[],s={render:r,staticRenderFns:a};e.a=s},"6CWX":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r=n("RkRv"),a=n("4IP3"),s=n("VU/8"),u=s(r.a,a.a,!1,null,null,null);e.default=u.exports},RkRv:function(t,e,n){"use strict";e.a={data:function(){return{}}}}});
+//# sourceMappingURL=23.2fea03aaf22d3639e1ab.js.map
