@@ -5,6 +5,9 @@
     <br>
     <TitleCell :showBorderBottom="false">icon</TitleCell>
     <Grid :datas="iconDatas" v-on:click="clickHandler"></Grid>
+    <br>
+    <TitleCell :showBorderBottom="false">文字</TitleCell>
+    <Grid :datas="textDatas" v-on:click="clickHandler"></Grid>
   </div>
 </template>
 <script>
@@ -12,7 +15,8 @@ export default {
   data() {
     return {
       datas: [],
-      iconDatas: []
+      iconDatas: [],
+      textDatas: []
     }
   },
   mounted() {
@@ -26,6 +30,11 @@ export default {
       temps.push({ title: '标题' + index, iconClass: 'weui-icon-success' })
     }
     this.iconDatas = temps
+    temps = []
+    for (let index = 0; index < Math.ceil(Math.random() * 9 + 1); index++) {
+      temps.push({ title: '标题' + index })
+    }
+    this.textDatas = temps
   },
   methods: {
     clickHandler(index) {
