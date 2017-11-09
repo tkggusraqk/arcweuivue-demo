@@ -4,7 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-// import ArcWeUi from '@/index.js'
 import ArcWeUI from 'arcweui-vue'
 import 'arcweui-vue/dist/arcweui-vue.min.css'
 
